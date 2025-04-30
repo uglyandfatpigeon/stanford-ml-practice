@@ -1,0 +1,16 @@
+name: stanford-ml
+channels:
+  - conda-forge          # pakiety z community, zwykle aktualniejsze
+dependencies:
+  - python >=3.11,<3.13  # trzymasz się wersji zgodnych z kursami Stanforda
+  - numpy
+  - pandas
+  - scikit-learn
+  - jupyterlab           # UI dla notebooków
+  - matplotlib
+  - seaborn              # (opcjonalnie) ładne wykresy
+  - ipykernel            # kernel Pythona w Jupyterze
+  - pip                  # pozwala doinstalować to, czego nie ma w conda
+  - pip:
+      - ruff             # (opc.) szybki linter
+      - black            # (opc.) auto-formatter kodu
