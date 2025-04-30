@@ -172,3 +172,40 @@ cython_debug/
 
 # PyPI configuration file
 .pypirc
+
+# ▶︎ środowiska
+.env
+.venv
+env/
+venv/
+__pycache__/
+*.py[cod]
+*.so
+*.egg-info/
+
+# ▶︎ Jupyter / VS Code
+.ipynb_checkpoints/
+.vscode/
+*.code-workspace
+
+# ▶︎ systemowe
+.DS_Store
+Thumbs.db
+
+# ▶︎ Mamba/Conda
+.mambaforge/
+conda-meta/
+*.conda
+*.lock
+
+# ▶︎ dane tymczasowe / testowe
+*.log
+*.tmp
+*.out
+
+# ▶︎ pliki binarne / wagi modeli
+*.h5
+*.pkl
+*.joblib
+*.onnx
+*.pt
